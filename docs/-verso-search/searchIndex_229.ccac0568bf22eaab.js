@@ -1,0 +1,1 @@
+window.docContents[229].resolve({"/Notes/#Zippers___-A-Documentation-Example--Notes":{"contents":"Use margin to create a marginal note.Marginal notes should be used like footnotes.\n\n","context":"Zippers: A Documentation Example","header":"3. Notes","id":"/Notes/#Zippers___-A-Documentation-Example--Notes"}});

@@ -1,0 +1,87 @@
+{"9":
+ "<code>Zipper.move.{u, w, v} {α : outParam (Type u)} {δ : outParam (Type w)} {ζ : Type v} [self : Zipper α δ ζ] :\n  ζ → δ → Option ζ</code>",
+ "8": "<code class=\"docstring\">The universe parameter v</code>",
+ "7": "<code>Type v</code>",
+ "6": "<code class=\"docstring\">The universe parameter w</code>",
+ "56":
+ "<code>Verso.Genre.Manual.ref : Verso.Doc.Elab.RoleExpanderOf RoleArgs</code><span class=\"sep\"></span><code class=\"docstring\">Inserts a reference to the provided tag.\n</code>",
+ "55":
+ "<code>Verso.Genre.Manual.citehere : Verso.Doc.Elab.RoleExpanderOf Bibliography.CiteConfig</code>",
+ "54":
+ "<code>Verso.Genre.Manual.citep : Verso.Doc.Elab.RoleExpanderOf Bibliography.CiteConfig</code>",
+ "53":
+ "<code>Verso.Genre.Manual.citet : Verso.Doc.Elab.RoleExpanderOf Bibliography.CiteConfig</code>",
+ "52":
+ "<code>Verso.Genre.Manual.margin : Verso.Doc.Elab.RoleExpanderOf Unit</code>",
+ "51":
+ "<code>verso.exampleModule</code><span class=\"sep\"></span><code class=\"docstring\">The default module to load examples from</code>",
+ "50": "<code><span class=\"literal string\">\"\"</span> : String</code>",
+ "5": "<code>outParam (Type w)</code>",
+ "49": "<code>List α → ListZipper α</code>",
+ "48": "<code>ListZipper α → List α</code>",
+ "47":
+ "<code>Zipper.ListZipper.mk.{u_1} {α : Type u_1} (revBefore after : List α) : ListZipper α</code>",
+ "46":
+ "<code>Option.some.{u} {α : Type u} (val : α) : Option α</code><span class=\"sep\"></span><code class=\"docstring\">Some value of type `α`. </code>",
+ "45":
+ "<code>Option.none.{u} {α : Type u} : Option α</code><span class=\"sep\"></span><code class=\"docstring\">No value. </code>",
+ "44": "<code>ListZipper α → Dir → Option (ListZipper α)</code>",
+ "43": "<code>Zipper.ListZipper.Dir.left : Dir</code>",
+ "42": "<code>Zipper.ListZipper.Dir : Type</code>",
+ "41":
+ "<code class=\"docstring\">In Lean, every concrete type other than the universes\nand every type constructor other than dependent arrows\nis an instance of a general family of type constructions known as inductive types.\nIt is remarkable that it is possible to construct a substantial edifice of mathematics\nbased on nothing more than the type universes, dependent arrow types, and inductive types;\neverything else follows from those.\nIntuitively, an inductive type is built up from a specified list of constructors.\nFor example, `List α` is the list of elements of type `α`, and is defined as follows:\n```\ninductive List (α : Type u) where\n| nil\n| cons (head : α) (tail : List α)\n```\nA list of elements of type `α` is either the empty list, `nil`,\nor an element `head : α` followed by a list `tail : List α`.\nSee [Inductive types](https://lean-lang.org/theorem_proving_in_lean4/inductive_types.html)\nfor more information.\n</code>",
+ "40": "<code>List α</code>",
+ "4": "<code class=\"docstring\">The universe parameter u</code>",
+ "39": "<code>List α</code>",
+ "38":
+ "<code>Zipper.ListZipper.close.close'.{u_1} {α : Type u_1} : List α → List α → List α</code>",
+ "37": "<code>ListZipper α</code>",
+ "36":
+ "<code>Repr.{u} (α : Type u) : Type u</code><span class=\"sep\"></span><code class=\"docstring\">The standard way of turning values of some type into `Format`.\n\nWhen rendered this `Format` should be as close as possible to something that can be parsed as the\ninput value.\n</code>",
+ "35":
+ "<code>Zipper.ListZipper.after.{u_1} {α : Type u_1} (self : ListZipper α) : List α</code>",
+ "34":
+ "<code>Zipper.ListZipper.revBefore.{u_1} {α : Type u_1} (self : ListZipper α) : List α</code>",
+ "33": "<code>Type u_1</code>",
+ "32":
+ "<code>Zipper.ListZipper.close.{u_1} {α : Type u_1} (z : ListZipper α) : List α</code>",
+ "31":
+ "<code>Pure.pure.{u, v} {f : Type u → Type v} [self : Pure f] {α : Type u} : α → f α</code><span class=\"sep\"></span><code class=\"docstring\">Given `a : α`, then `pure a : f α` represents an action that does nothing and returns `a`.\n\nExamples:\n* `(pure \"hello\" : Option String) = some \"hello\"`\n* `(pure \"hello\" : Except (Array String) String) = Except.ok \"hello\"`\n* `(pure \"hello\" : StateM Nat String).run 105 = (\"hello\", 105)`\n</code>",
+ "30":
+ "<code>Zipper.ListZipper.add.{u_1} {α : Type u_1} (x : α) (xs : ListZipper α) : ListZipper α</code>",
+ "3":
+ "<code class=\"docstring\">A type universe. `Type ≡ Type 0`, `Type u ≡ Sort (u + 1)`. </code>",
+ "29": "<code>Zipper.ListZipper.Dir.right : Dir</code>",
+ "28": "<code>ListZipper Nat</code>",
+ "27":
+ "<code>List.{u} (α : Type u) : Type u</code><span class=\"sep\"></span><code class=\"docstring\">Linked lists: ordered lists, in which each element has a reference to the next element.\n\nMost operations on linked lists take time proportional to the length of the list, because each\nelement must be traversed to find the next element.\n\n`List α` is isomorphic to `Array α`, but they are useful for different things:\n* `List α` is easier for reasoning, and `Array α` is modeled as a wrapper around `List α`.\n* `List α` works well as a persistent data structure, when many copies of the tail are shared. When\n  the value is not shared, `Array α` will have better performance because it can do destructive\n  updates.\n</code>",
+ "26":
+ "<code class=\"docstring\">`#eval e` evaluates the expression `e` by compiling and evaluating it.\n\n* The command attempts to use `ToExpr`, `Repr`, or `ToString` instances to print the result.\n* If `e` is a monadic value of type `m ty`, then the command tries to adapt the monad `m`\n  to one of the monads that `#eval` supports, which include `IO`, `CoreM`, `MetaM`, `TermElabM`, and `CommandElabM`.\n  Users can define `MonadEval` instances to extend the list of supported monads.\n\nThe `#eval` command gracefully degrades in capability depending on what is imported.\nImporting the `Lean.Elab.Command` module provides full capabilities.\n\nDue to unsoundness, `#eval` refuses to evaluate expressions that depend on `sorry`, even indirectly,\nsince the presence of `sorry` can lead to runtime instability and crashes.\nThis check can be overridden with the `#eval! e` command.\n\nOptions:\n* If `eval.pp` is true (default: true) then tries to use `ToExpr` instances to make use of the\n  usual pretty printer. Otherwise, only tries using `Repr` and `ToString` instances.\n* If `eval.type` is true (default: false) then pretty prints the type of the evaluated value.\n* If `eval.derive.repr` is true (default: true) then attempts to auto-derive a `Repr` instance\n  when there is no other way to print the result.\n\nSee also: `#reduce e` for evaluation by term reduction.\n</code>",
+ "25": "<code>Nat</code>",
+ "24":
+ "<code>Nat : Type</code><span class=\"sep\"></span><code class=\"docstring\">The natural numbers, starting at zero.\n\nThis type is special-cased by both the kernel and the compiler, and overridden with an efficient\nimplementation. Both use a fast arbitrary-precision arithmetic library (usually\n[GMP](https://gmplib.org/)); at runtime, `Nat` values that are sufficiently small are unboxed.\n</code>",
+ "23": "<code>Zipper.ListZipper.{u_1} (α : Type u_1) : Type u_1</code>",
+ "22": "<code>Zipper.ListZipper.z1 : ListZipper Nat</code>",
+ "21": "<code>ζ</code>",
+ "20":
+ "<code>LawfulZipper.close_init.{u, w, v} {α : Type u} {δ : outParam (Type w)} {ζ : outParam (Type v)}\n  [self : LawfulZipper α δ ζ] {x : ζ} : Zipper.close (Zipper.init (Zipper.close x)) = Zipper.close x</code>",
+ "2":
+ "<code>outParam.{u} (α : Sort u) : Sort u</code><span class=\"sep\"></span><code class=\"docstring\">Gadget for marking output parameters in type classes.\n\nFor example, the `Membership` class is defined as:\n```\nclass Membership (α : outParam (Type u)) (γ : Type v)\n```\nThis means that whenever a typeclass goal of the form `Membership ?α ?γ` comes\nup, Lean will wait to solve it until `?γ` is known, but then it will run\ntypeclass inference, and take the first solution it finds, for any value of `?α`,\nwhich thereby determines what `?α` should be.\n\nThis expresses that in a term like `a ∈ s`, `s` might be a `Set α` or\n`List α` or some other type with a membership operation, and in each case\nthe \"member\" type `α` is determined by looking at the container type.\n</code>",
+ "19": "<code>α → ζ</code>",
+ "18": "<code>ζ → α</code>",
+ "17": "<code>α</code>",
+ "16":
+ "<code>LawfulZipper.init_close.{u, w, v} {α : Type u} {δ : outParam (Type w)} {ζ : outParam (Type v)}\n  [self : LawfulZipper α δ ζ] {x : α} : Zipper.close (Zipper.init x) = x</code>",
+ "15": "<code>outParam (Type v)</code>",
+ "14":
+ "<code>LawfulZipper.{u, w, v} (α : Type u) (δ : outParam (Type w)) (ζ : outParam (Type v)) : Type (max (max u v) w)</code>",
+ "13": "<code>Type u</code>",
+ "12":
+ "<code>Zipper.init.{u, w, v} {α : outParam (Type u)} {δ : outParam (Type w)} {ζ : Type v} [self : Zipper α δ ζ] : α → ζ</code>",
+ "11":
+ "<code>Zipper.close.{u, w, v} {α : outParam (Type u)} {δ : outParam (Type w)} {ζ : Type v} [self : Zipper α δ ζ] : ζ → α</code>",
+ "10":
+ "<code>Option.{u} (α : Type u) : Type u</code><span class=\"sep\"></span><code class=\"docstring\">Optional values, which are either `some` around a value from the underlying type or `none`.\n\n`Option` can represent nullable types or computations that might fail. In the codomain of a function\ntype, it can also represent partiality.\n</code>",
+ "1":
+ "<code>Zipper.{u, w, v} (α : outParam (Type u)) (δ : outParam (Type w)) (ζ : Type v) : Type (max (max u v) w)</code>",
+ "0": "<code>outParam (Type u)</code>"}

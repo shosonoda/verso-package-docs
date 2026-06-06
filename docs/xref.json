@@ -1,0 +1,357 @@
+{"Verso.Genre.Manual.section":
+ {"title": "Sections or chapters of the manual",
+  "description": null,
+  "contents":
+  {"sec-ref":
+   [{"id": "sec-ref",
+     "data":
+     {"title": "Section References",
+      "shortTitle": null,
+      "sectionNum": "5.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Section References", "shortTitle": null, "number": "5"}]},
+     "address": "/Section-References/"}],
+   "index":
+   [{"id": "index",
+     "data":
+     {"title": "Index",
+      "shortTitle": null,
+      "sectionNum": null,
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Index", "shortTitle": null, "number": null}]},
+     "address": "/Index/"}],
+   "Zippers___-A-Documentation-Example--Zippers":
+   [{"id": "Zippers___-A-Documentation-Example--Zippers",
+     "data":
+     {"title": "Zippers",
+      "shortTitle": null,
+      "sectionNum": "1.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Zippers", "shortTitle": null, "number": "1"}]},
+     "address": "/Zippers/"}],
+   "Zippers___-A-Documentation-Example--Viewing-the-Output":
+   [{"id": "Zippers___-A-Documentation-Example--Viewing-the-Output",
+     "data":
+     {"title": "Viewing the Output",
+      "shortTitle": null,
+      "sectionNum": "6.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Viewing the Output", "shortTitle": null, "number": "6"}]},
+     "address": "/Viewing-the-Output/"}],
+   "Zippers___-A-Documentation-Example--Using-an-Index":
+   [{"id": "Zippers___-A-Documentation-Example--Using-an-Index",
+     "data":
+     {"title": "Using an Index",
+      "shortTitle": null,
+      "sectionNum": "7.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Using an Index", "shortTitle": null, "number": "7"}]},
+     "address": "/Using-an-Index/"}],
+   "Zippers___-A-Documentation-Example--Notes":
+   [{"id": "Zippers___-A-Documentation-Example--Notes",
+     "data":
+     {"title": "Notes",
+      "shortTitle": null,
+      "sectionNum": "3.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Notes", "shortTitle": null, "number": "3"}]},
+     "address": "/Notes/"}],
+   "Zippers___-A-Documentation-Example--Documentation-Features--Example-Modules":
+   [{"id":
+     "Zippers___-A-Documentation-Example--Documentation-Features--Example-Modules",
+     "data":
+     {"title": "Example Modules",
+      "shortTitle": null,
+      "sectionNum": "2.1.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Documentation Features", "shortTitle": null, "number": "2"},
+       {"title": "Example Modules", "shortTitle": null, "number": "1"}]},
+     "address": "/Documentation-Features/"}],
+   "Zippers___-A-Documentation-Example--Documentation-Features--Anchors":
+   [{"id":
+     "Zippers___-A-Documentation-Example--Documentation-Features--Anchors",
+     "data":
+     {"title": "Anchors",
+      "shortTitle": null,
+      "sectionNum": "2.2.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Documentation Features", "shortTitle": null, "number": "2"},
+       {"title": "Anchors", "shortTitle": null, "number": "2"}]},
+     "address": "/Documentation-Features/"}],
+   "Zippers___-A-Documentation-Example--Documentation-Features":
+   [{"id": "Zippers___-A-Documentation-Example--Documentation-Features",
+     "data":
+     {"title": "Documentation Features",
+      "shortTitle": null,
+      "sectionNum": "2.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Documentation Features", "shortTitle": null, "number": "2"}]},
+     "address": "/Documentation-Features/"}],
+   "Zippers___-A-Documentation-Example--Citations":
+   [{"id": "Zippers___-A-Documentation-Example--Citations",
+     "data":
+     {"title": "Citations",
+      "shortTitle": null,
+      "sectionNum": "4.",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null},
+       {"title": "Citations", "shortTitle": null, "number": "4"}]},
+     "address": "/Citations/"}],
+   "Zippers___-A-Documentation-Example":
+   [{"id": "Zippers___-A-Documentation-Example",
+     "data":
+     {"title": "Zippers: A Documentation Example",
+      "shortTitle": "Zippers",
+      "sectionNum": "",
+      "searchPriority": 50,
+      "context":
+      [{"title": "Zippers: A Documentation Example",
+        "shortTitle": "Zippers",
+        "number": null}]},
+     "address": "/"}]}},
+ "Verso.Genre.Manual.example":
+ {"title": "Verso.Genre.Manual.example",
+  "description": null,
+  "contents":
+  {"Zipper.move":
+   [{"id": "Zipper___move",
+     "data":
+     {"/Zippers/#Zipper___move":
+      {"display": "move",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.init":
+   [{"id": "Zipper___init",
+     "data":
+     {"/Zippers/#Zipper___init":
+      {"display": "init",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.close":
+   [{"id": "Zipper___close",
+     "data":
+     {"/Zippers/#Zipper___close":
+      {"display": "close",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.z1":
+   [{"id": "Zipper___ListZipper___z1",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___z1":
+      {"display": "z1",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.revBefore":
+   [{"id": "Zipper___ListZipper___revBefore",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___revBefore":
+      {"display": "revBefore",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.close.close'":
+   [{"id": "Zipper___ListZipper___close___close___",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___close___close___":
+      {"display": "close'",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.close":
+   [{"id": "Zipper___ListZipper___close-next",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___close-next":
+      {"display": "ListZipper.close",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#Zipper___ListZipper___close":
+      {"display": "close",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"},
+    {"id": "Zipper___ListZipper___close",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___close-next":
+      {"display": "ListZipper.close",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#Zipper___ListZipper___close":
+      {"display": "close",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.after":
+   [{"id": "Zipper___ListZipper___after",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___after":
+      {"display": "after",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.add":
+   [{"id": "Zipper___ListZipper___add-next",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___add-next":
+      {"display": "ListZipper.add",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#Zipper___ListZipper___add":
+      {"display": "add",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"},
+    {"id": "Zipper___ListZipper___add",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___add-next":
+      {"display": "ListZipper.add",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#Zipper___ListZipper___add":
+      {"display": "add",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.Dir.right":
+   [{"id": "Zipper___ListZipper___Dir___right",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___Dir___right":
+      {"display": "right",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.Dir.left":
+   [{"id": "Zipper___ListZipper___Dir___left",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___Dir___left":
+      {"display": "left",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper.Dir":
+   [{"id": "Zipper___ListZipper___Dir",
+     "data":
+     {"/Zippers/#Zipper___ListZipper___Dir":
+      {"display": "Dir",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper.ListZipper":
+   [{"id": "Zipper___ListZipper",
+     "data":
+     {"/Zippers/#Zipper___ListZipper":
+      {"display": "ListZipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "Zipper":
+   [{"id": "Zipper",
+     "data":
+     {"/Zippers/#Zipper-next":
+      {"display": "Zipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#Zipper":
+      {"display": "Zipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"},
+    {"id": "Zipper-next",
+     "data":
+     {"/Zippers/#Zipper-next":
+      {"display": "Zipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#Zipper":
+      {"display": "Zipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "LawfulZipper.init_close":
+   [{"id": "LawfulZipper___init_close",
+     "data":
+     {"/Zippers/#LawfulZipper___init_close":
+      {"display": "init_close",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "LawfulZipper.close_init":
+   [{"id": "LawfulZipper___close_init",
+     "data":
+     {"/Zippers/#LawfulZipper___close_init":
+      {"display": "close_init",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}],
+   "LawfulZipper":
+   [{"id": "LawfulZipper",
+     "data":
+     {"/Zippers/#LawfulZipper-next":
+      {"display": "LawfulZipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#LawfulZipper":
+      {"display": "LawfulZipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"},
+    {"id": "LawfulZipper-next",
+     "data":
+     {"/Zippers/#LawfulZipper-next":
+      {"display": "LawfulZipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]},
+      "/Zippers/#LawfulZipper":
+      {"display": "LawfulZipper",
+       "context": ["Zippers: A Documentation Example", "Zippers"]}},
+     "address": "/Zippers/"}]}},
+ "Verso.Genre.Manual.doc.tech":
+ {"title": "Terminology",
+  "description": "Definitions of technical terms",
+  "contents":
+  {"anchor":
+   [{"id": "--tech-term-anchor",
+     "data": {"term": "anchor"},
+     "address": "/Documentation-Features/"}]}},
+ "Verso.Genre.Manual.doc.tactic.conv":
+ {"title": "Conversion Tactics",
+  "description": "Tactics for performing targeted rewriting of subterms",
+  "contents": {}},
+ "Verso.Genre.Manual.doc.tactic":
+ {"title": "Tactic Documentation",
+  "description": "Detailed descriptions of tactics",
+  "contents": {}},
+ "Verso.Genre.Manual.doc.suggestion":
+ {"title": "Lean constant suggestions",
+  "description": "Search suggestions for Lean constants",
+  "contents": {}},
+ "Verso.Genre.Manual.doc.option":
+ {"title": "Compiler options",
+  "description": null,
+  "contents":
+  {"verso.exampleProject":
+   [{"id": "verso___exampleProject",
+     "data": null,
+     "address": "/Documentation-Features/"}],
+   "verso.exampleModule":
+   [{"id": "verso___exampleModule",
+     "data": null,
+     "address": "/Documentation-Features/"}]}},
+ "Verso.Genre.Manual.doc":
+ {"title": "Lean constant reference",
+  "description": "Documentation for Lean constants",
+  "contents": {}}}
